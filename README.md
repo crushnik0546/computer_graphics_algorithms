@@ -1,6 +1,7 @@
 # computer_graphics_algorithms
 Laboratory works for computer graphics algorithms
-co-author: [Alesya](https://github.com/dealeska)
+
+**co-author: [Alesya](https://github.com/dealeska)**
 
 ## Model grid (1st lab)
 ![model grid](https://github.com/crushnik0546/computer_graphics_algorithms/blob/main/results/model_grid.gif)
