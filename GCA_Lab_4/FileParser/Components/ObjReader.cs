@@ -76,7 +76,7 @@ namespace MainLogic
                 return null;
             }
 
-            string[] files = Directory.GetFiles(@"..\..\..\..\cube\source\");
+            string[] files = Directory.GetFiles(@"..\..\..\..\models\cube\source\");
             foreach (string file in files)
             {
                 if (file.ToLower().Contains(fileName))

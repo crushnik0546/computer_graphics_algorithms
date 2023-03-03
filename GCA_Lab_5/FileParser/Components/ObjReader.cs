@@ -79,7 +79,7 @@ namespace MainLogic
                 return null;
             }
 
-            string[] files = Directory.GetFiles(@"..\..\..\..\ship\source\");
+            string[] files = Directory.GetFiles(@"..\..\..\..\models\ship\source\");
             foreach (string file in files)
             {
                 if (file.ToLower().Contains(fileName))

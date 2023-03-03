@@ -34,10 +34,10 @@ namespace Drawing
             _backBuffer = new byte[RenderBitmap.PixelWidth * RenderBitmap.PixelHeight * 4];
             RenderImage.Source = RenderBitmap;
 
-            //Render.Init(@"..\..\..\..\cube\source\cube.obj");
-            //Render.Init(@"..\..\..\..\cube\source\head.obj");
-            Render.Init(@"..\..\..\..\shrek\source\shrek_shrinked.obj");
-            //Render.Init(@"..\..\..\..\dinosaur\source\deino.obj");
+            //Render.Init(@"..\..\..\..\models\cube\source\cube.obj");
+            //Render.Init(@"..\..\..\..\models\cube\source\head.obj");
+            Render.Init(@"..\..\..\..\models\shrek\source\shrek_shrinked.obj");
+            //Render.Init(@"..\..\..\..\models\dinosaur\source\deino.obj");
         }
 
         public void Clear(byte r, byte g, byte b, byte a)

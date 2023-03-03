@@ -30,7 +30,7 @@ namespace Drawing
 
         public Vector3 modelColor = new Vector3(0.05f, 0.05f, 0.05f);
         
-        public static string PathToFile = @"..\..\..\..\cube\source\cube.obj";
+        public static string PathToFile = @"..\..\..\..\models\cube\source\cube.obj";
         public MainWindow()
         {
             InitializeComponent();
@@ -39,12 +39,11 @@ namespace Drawing
             _backBuffer = new byte[RenderBitmap.PixelWidth * RenderBitmap.PixelHeight * 4];
             RenderImage.Source = RenderBitmap;
 
-            //Render.Init(@"..\..\..\..\cube\source\cube.obj");
+            //Render.Init(@"..\..\..\..\models\cube\source\cube.obj");
             Render.Init(PathToFile);
-            //Render.Init(@"..\..\..\..\shrek\source\shrek_shrinked.obj");
-            //Render.Init(@"..\..\..\..\dinosaur\source\deino.obj");
-            //Render.Init(@"..\..\..\..\monster\source\Model.obj");
-            //Render.Init(@"..\..\..\..\plastic_chair\source\plastic_chair.obj");
+            //Render.Init(@"..\..\..\..\models\shrek\source\shrek_shrinked.obj");
+            //Render.Init(@"..\..\..\..\models\dinosaur\source\deino.obj");
+            //Render.Init(@"..\..\..\..\models\monster\source\Model.obj");
         }
 
         public void Clear(byte r, byte g, byte b, byte a)

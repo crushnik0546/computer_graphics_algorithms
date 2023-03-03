@@ -12,7 +12,7 @@ namespace MainLogic
         static void Main(string[] args)
         {
             //TODO: add resource file
-            var objFileReader = new ObjReader(@"..\..\..\..\cube\source\cube.obj");
+            var objFileReader = new ObjReader(@"..\..\..\..\models\cube\source\cube.obj");
             
             var objModel = objFileReader.ReadObjFile();            
 
