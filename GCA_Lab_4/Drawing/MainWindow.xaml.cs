@@ -30,7 +30,7 @@ namespace Drawing
 
         public Vector3 modelColor = new Vector3(0.05f, 0.05f, 0.05f);
         
-        public static string PathToFile = @"..\..\..\..\models\cube\source\cube.obj";
+        public static string PathToFile = @"..\..\..\..\models\monster\source\Model.obj";
         public MainWindow()
         {
             InitializeComponent();

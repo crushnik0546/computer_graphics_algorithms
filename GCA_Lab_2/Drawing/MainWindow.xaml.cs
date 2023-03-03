@@ -35,7 +35,7 @@ namespace Drawing
             RenderImage.Source = RenderBitmap;
 
             //Render.Init(@"..\..\..\..\models\cube\source\cube.obj");
-            //Render.Init(@"..\..\..\..\models\cube\source\head.obj");
+            //Render.Init(@"..\..\..\..\models\head\source\head.obj");
             Render.Init(@"..\..\..\..\models\shrek\source\shrek_shrinked.obj");
             //Render.Init(@"..\..\..\..\models\dinosaur\source\deino.obj");
         }
